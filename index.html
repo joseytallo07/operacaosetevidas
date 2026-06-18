@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='pt-BR'><head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Operação Sete Vidas</title>
+<link rel='stylesheet' href='style.css'>
+</head><body>
+<div class='app'>
+<h1>🕵️ Operação Sete Vidas</h1>
+<div class='layout'>
+<div class='main'>
+<h2 id='title'></h2>
+<div id='story'></div>
+<div id='choices'></div>
+</div>
+<div class='side'>
+<h3>📁 Provas</h3>
+<ul id='evidence'></ul>
+<h3>🐱 Suspeitos</h3>
+<ul>
+<li>Gato Terapeuta</li>
+<li>Gato Maloqueiro</li>
+<li>Gato Assustado</li>
+<li>Gato Carteiro</li>
+<li>Gato Barão</li>
+<li>Gato Hacker</li>
+<li>Gata Bibliotecária</li>
+<li>Gato Fantasma</li>
+</ul>
+<h3>⚖️ Acusação Final</h3>
+<select id='accuse'>
+<option>Gato Terapeuta</option>
+<option>Gato Maloqueiro</option>
+<option>Gato Assustado</option>
+<option>Gato Carteiro</option>
+<option>Gato Barão</option>
+<option>Gato Hacker</option>
+<option>Gata Bibliotecária</option>
+<option>Gato Fantasma</option>
+</select>
+<button onclick='finalAccusation()'>Acusar</button>
+<div id='result'></div>
+</div>
+</div>
+</div>
+<script src='game.js'></script>
+</body></html>

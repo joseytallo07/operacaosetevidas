@@ -1,0 +1,7 @@
+body{margin:0;background:#0f172a;color:#fff;font-family:Arial}
+.app{max-width:1200px;margin:auto;padding:20px}
+.layout{display:grid;grid-template-columns:2fr 1fr;gap:20px}
+.main,.side{background:#1e293b;padding:15px;border-radius:12px}
+#story{min-height:300px;line-height:1.7;white-space:pre-wrap}
+button{padding:10px 15px;border:0;border-radius:8px;cursor:pointer;margin-top:10px}
+li{margin:4px 0}
